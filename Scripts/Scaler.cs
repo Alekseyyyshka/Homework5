@@ -6,10 +6,10 @@ public class Scaler : MonoBehaviour
 
     private void Update()
     {
-        Change();
+        ChangeSize();
     }
 
-    private void Change()
+    private void ChangeSize()
     {
         transform.localScale += new Vector3(_speed, _speed, _speed);
     }
